@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.9
+ENV VERSION=1.2.0
 
 RUN gem install bowtie-io --version ${VERSION} --no-format-exec
 
